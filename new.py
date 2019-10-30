@@ -12,13 +12,6 @@ print("CURRENT WORKING DIRECTORY: ",curr_working_dir)
 
 #Registration window
 
-def second_main_screen():
-    '''sec_main_screen = Tk()
-    sec_main_screen = Toplevel(main_screen)
-    sec_main_screen.title("Home - Movie Booking")
-    sec_main_screen.geometry("400x350")'''
-    print("SUCCESS!")
-
 def register():
     global register_screen
     register_screen = Toplevel(main_screen)
